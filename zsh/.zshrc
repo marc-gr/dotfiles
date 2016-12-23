@@ -23,24 +23,24 @@ timestamp() {
 }
 
 source $ZPLUG_HOME/init.zsh
-zplug "zsh-users/zsh-autosuggestions", nice:10
+zplug "zsh-users/zsh-autosuggestions"
 
-zplug "urbainvaes/fzf-marks", nice:10
+zplug "urbainvaes/fzf-marks"
 
-zplug "zsh-users/zsh-syntax-highlighting", nice:10
-zplug "zsh-users/zsh-history-substring-search", nice:10
+zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-history-substring-search"
 
-zplug "plugins/docker", from:oh-my-zsh, nice:10
-zplug "plugins/git", from:oh-my-zsh, nice:10
-zplug "plugins/brew", from:oh-my-zsh, nice:10
-zplug "plugins/brew-cask", from:oh-my-zsh, nice:10
-zplug "plugins/composer", from:oh-my-zsh, nice:10
-zplug "plugins/osx", from:oh-my-zsh, nice:10, if:"[[ $OSTYPE == *darwin* ]]"
+zplug "plugins/docker", from:oh-my-zsh
+zplug "plugins/git", from:oh-my-zsh
+zplug "plugins/brew", from:oh-my-zsh
+zplug "plugins/brew-cask", from:oh-my-zsh
+zplug "plugins/composer", from:oh-my-zsh
+zplug "plugins/osx", from:oh-my-zsh, if:"[[ $OSTYPE == *darwin* ]]"
 
 # Liquid prompt
 LP_ENABLE_TIME=1
 LP_USER_ALWAYS=1
-zplug "nojhan/liquidprompt", nice:10
+zplug "nojhan/liquidprompt"
 
 zplug install
 
